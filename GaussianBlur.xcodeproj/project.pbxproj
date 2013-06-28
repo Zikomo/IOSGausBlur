@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB1BB50114C6E44F0004B4F4 /* horzBlurShader.fsh in Sources */ = {isa = PBXBuildFile; fileRef = EB1BB50014C6E44F0004B4F4 /* horzBlurShader.fsh */; };
+		EB1BB50314C6E45F0004B4F4 /* horzBlurShader.vsh in Sources */ = {isa = PBXBuildFile; fileRef = EB1BB50214C6E45F0004B4F4 /* horzBlurShader.vsh */; };
+		EB6B23D514C78BC700DF7240 /* vertBlurShader.vsh in Sources */ = {isa = PBXBuildFile; fileRef = EB6B23D414C78BC700DF7240 /* vertBlurShader.vsh */; };
+		EB6B23D814C78E5300DF7240 /* vertBlurShader.fsh in Sources */ = {isa = PBXBuildFile; fileRef = EB6B23D714C78E5300DF7240 /* vertBlurShader.fsh */; };
+		EB6B23E314C7F0AF00DF7240 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6B23E214C7F0AF00DF7240 /* CoreFoundation.framework */; };
+		EB95CE3314BEBED5000B6D24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB95CE3214BEBED5000B6D24 /* UIKit.framework */; };
+		EB95CE3514BEBED5000B6D24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB95CE3414BEBED5000B6D24 /* Foundation.framework */; };
+		EB95CE3714BEBED5000B6D24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB95CE3614BEBED5000B6D24 /* CoreGraphics.framework */; };
+		EB95CE3D14BEBED5000B6D24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB95CE3B14BEBED5000B6D24 /* InfoPlist.strings */; };
+		EB95CE3F14BEBED5000B6D24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB95CE3E14BEBED5000B6D24 /* main.m */; };
+		EB95CE4314BEBED5000B6D24 /* DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB95CE4214BEBED5000B6D24 /* DemoAppDelegate.m */; };
+		EB95CE4614BEBED5000B6D24 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB95CE4514BEBED5000B6D24 /* DemoViewController.m */; };
+		EB95CE4914BEBED5000B6D24 /* DemoViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB95CE4714BEBED5000B6D24 /* DemoViewController_iPhone.xib */; };
+		EB95CE4C14BEBED5000B6D24 /* DemoViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB95CE4A14BEBED5000B6D24 /* DemoViewController_iPad.xib */; };
+		EB95CE5C14BEDA40000B6D24 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB95CE5B14BEDA3F000B6D24 /* OpenGLES.framework */; };
+		EB99BB1814D012BA00B34E63 /* OGLShader.m in Sources */ = {isa = PBXBuildFile; fileRef = EB99BB1714D012BA00B34E63 /* OGLShader.m */; };
+		EB99BB1E14D0239C00B34E63 /* horzBlurShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = EB1BB50214C6E45F0004B4F4 /* horzBlurShader.vsh */; };
+		EB99BB1F14D0239C00B34E63 /* horzBlurShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = EB1BB50014C6E44F0004B4F4 /* horzBlurShader.fsh */; };
+		EB99BB2014D023AE00B34E63 /* vertBlurShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = EB6B23D414C78BC700DF7240 /* vertBlurShader.vsh */; };
+		EB99BB2114D023AE00B34E63 /* vertBlurShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = EB6B23D714C78E5300DF7240 /* vertBlurShader.fsh */; };
+		EBD78E6514D1226700D5A0A5 /* IMG_0069.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBD78E6314D1226700D5A0A5 /* IMG_0069.jpg */; };
+		EBD78E6614D1226700D5A0A5 /* IMG_0153.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBD78E6414D1226700D5A0A5 /* IMG_0153.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB1BB4E514C4F0580004B4F4 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		EB1BB50014C6E44F0004B4F4 /* horzBlurShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = horzBlurShader.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		EB1BB50214C6E45F0004B4F4 /* horzBlurShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = horzBlurShader.vsh; sourceTree = "<group>"; };
+		EB6B23D414C78BC700DF7240 /* vertBlurShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vertBlurShader.vsh; sourceTree = "<group>"; };
+		EB6B23D714C78E5300DF7240 /* vertBlurShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vertBlurShader.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		EB6B23DF14C7C0CB00DF7240 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EB6B23E214C7F0AF00DF7240 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EB95CE2E14BEBED5000B6D24 /* GaussianBlur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaussianBlur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB95CE3214BEBED5000B6D24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB95CE3414BEBED5000B6D24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB95CE3614BEBED5000B6D24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB95CE3A14BEBED5000B6D24 /* GaussianBlur-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GaussianBlur-Info.plist"; sourceTree = "<group>"; };
+		EB95CE3C14BEBED5000B6D24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB95CE3E14BEBED5000B6D24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB95CE4014BEBED5000B6D24 /* GaussianBlur-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GaussianBlur-Prefix.pch"; sourceTree = "<group>"; };
+		EB95CE4114BEBED5000B6D24 /* DemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppDelegate.h; sourceTree = "<group>"; };
+		EB95CE4214BEBED5000B6D24 /* DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; };
+		EB95CE4414BEBED5000B6D24 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		EB95CE4514BEBED5000B6D24 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		EB95CE4814BEBED5000B6D24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DemoViewController_iPhone.xib; sourceTree = "<group>"; };
+		EB95CE4B14BEBED5000B6D24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DemoViewController_iPad.xib; sourceTree = "<group>"; };
+		EB95CE5B14BEDA3F000B6D24 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EB99BB1614D012BA00B34E63 /* OGLShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLShader.h; sourceTree = "<group>"; };
+		EB99BB1714D012BA00B34E63 /* OGLShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLShader.m; sourceTree = "<group>"; };
+		EBD78E6314D1226700D5A0A5 /* IMG_0069.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0069.jpg; sourceTree = "<group>"; };
+		EBD78E6414D1226700D5A0A5 /* IMG_0153.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0153.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB95CE2B14BEBED5000B6D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6B23E314C7F0AF00DF7240 /* CoreFoundation.framework in Frameworks */,
+				EB95CE5C14BEDA40000B6D24 /* OpenGLES.framework in Frameworks */,
+				EB95CE3314BEBED5000B6D24 /* UIKit.framework in Frameworks */,
+				EB95CE3514BEBED5000B6D24 /* Foundation.framework in Frameworks */,
+				EB95CE3714BEBED5000B6D24 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB95CE2314BEBED5000B6D24 = {
+			isa = PBXGroup;
+			children = (
+				EB6B23E214C7F0AF00DF7240 /* CoreFoundation.framework */,
+				EB6B23DF14C7C0CB00DF7240 /* QuartzCore.framework */,
+				EB1BB4E514C4F0580004B4F4 /* GLKit.framework */,
+				EB95CE3814BEBED5000B6D24 /* GaussianBlur */,
+				EB95CE3114BEBED5000B6D24 /* Frameworks */,
+				EB95CE2F14BEBED5000B6D24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB95CE2F14BEBED5000B6D24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB95CE2E14BEBED5000B6D24 /* GaussianBlur.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB95CE3114BEBED5000B6D24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB95CE5B14BEDA3F000B6D24 /* OpenGLES.framework */,
+				EB95CE3214BEBED5000B6D24 /* UIKit.framework */,
+				EB95CE3414BEBED5000B6D24 /* Foundation.framework */,
+				EB95CE3614BEBED5000B6D24 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB95CE3814BEBED5000B6D24 /* GaussianBlur */ = {
+			isa = PBXGroup;
+			children = (
+				EB1BB50214C6E45F0004B4F4 /* horzBlurShader.vsh */,
+				EB1BB50014C6E44F0004B4F4 /* horzBlurShader.fsh */,
+				EB95CE4114BEBED5000B6D24 /* DemoAppDelegate.h */,
+				EB95CE4214BEBED5000B6D24 /* DemoAppDelegate.m */,
+				EB95CE4414BEBED5000B6D24 /* DemoViewController.h */,
+				EB95CE4514BEBED5000B6D24 /* DemoViewController.m */,
+				EB95CE4714BEBED5000B6D24 /* DemoViewController_iPhone.xib */,
+				EB95CE4A14BEBED5000B6D24 /* DemoViewController_iPad.xib */,
+				EB95CE3914BEBED5000B6D24 /* Supporting Files */,
+				EB99BB1614D012BA00B34E63 /* OGLShader.h */,
+				EB99BB1714D012BA00B34E63 /* OGLShader.m */,
+				EB6B23D414C78BC700DF7240 /* vertBlurShader.vsh */,
+				EB6B23D714C78E5300DF7240 /* vertBlurShader.fsh */,
+			);
+			path = GaussianBlur;
+			sourceTree = "<group>";
+		};
+		EB95CE3914BEBED5000B6D24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD78E6314D1226700D5A0A5 /* IMG_0069.jpg */,
+				EBD78E6414D1226700D5A0A5 /* IMG_0153.jpg */,
+				EB95CE3A14BEBED5000B6D24 /* GaussianBlur-Info.plist */,
+				EB95CE3B14BEBED5000B6D24 /* InfoPlist.strings */,
+				EB95CE3E14BEBED5000B6D24 /* main.m */,
+				EB95CE4014BEBED5000B6D24 /* GaussianBlur-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB95CE2D14BEBED5000B6D24 /* GaussianBlur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB95CE4F14BEBED5000B6D24 /* Build configuration list for PBXNativeTarget "GaussianBlur" */;
+			buildPhases = (
+				EB95CE2A14BEBED5000B6D24 /* Sources */,
+				EB95CE2B14BEBED5000B6D24 /* Frameworks */,
+				EB95CE2C14BEBED5000B6D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaussianBlur;
+			productName = GaussianBlur;
+			productReference = EB95CE2E14BEBED5000B6D24 /* GaussianBlur.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB95CE2514BEBED5000B6D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EB95CE2814BEBED5000B6D24 /* Build configuration list for PBXProject "GaussianBlur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB95CE2314BEBED5000B6D24;
+			productRefGroup = EB95CE2F14BEBED5000B6D24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB95CE2D14BEBED5000B6D24 /* GaussianBlur */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB95CE2C14BEBED5000B6D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB99BB2014D023AE00B34E63 /* vertBlurShader.vsh in Resources */,
+				EB99BB2114D023AE00B34E63 /* vertBlurShader.fsh in Resources */,
+				EB99BB1E14D0239C00B34E63 /* horzBlurShader.vsh in Resources */,
+				EB99BB1F14D0239C00B34E63 /* horzBlurShader.fsh in Resources */,
+				EB95CE3D14BEBED5000B6D24 /* InfoPlist.strings in Resources */,
+				EB95CE4914BEBED5000B6D24 /* DemoViewController_iPhone.xib in Resources */,
+				EB95CE4C14BEBED5000B6D24 /* DemoViewController_iPad.xib in Resources */,
+				EBD78E6514D1226700D5A0A5 /* IMG_0069.jpg in Resources */,
+				EBD78E6614D1226700D5A0A5 /* IMG_0153.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB95CE2A14BEBED5000B6D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB95CE3F14BEBED5000B6D24 /* main.m in Sources */,
+				EB95CE4314BEBED5000B6D24 /* DemoAppDelegate.m in Sources */,
+				EB95CE4614BEBED5000B6D24 /* DemoViewController.m in Sources */,
+				EB1BB50114C6E44F0004B4F4 /* horzBlurShader.fsh in Sources */,
+				EB1BB50314C6E45F0004B4F4 /* horzBlurShader.vsh in Sources */,
+				EB6B23D514C78BC700DF7240 /* vertBlurShader.vsh in Sources */,
+				EB6B23D814C78E5300DF7240 /* vertBlurShader.fsh in Sources */,
+				EB99BB1814D012BA00B34E63 /* OGLShader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB95CE3B14BEBED5000B6D24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB95CE3C14BEBED5000B6D24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB95CE4714BEBED5000B6D24 /* DemoViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB95CE4814BEBED5000B6D24 /* en */,
+			);
+			name = DemoViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		EB95CE4A14BEBED5000B6D24 /* DemoViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB95CE4B14BEBED5000B6D24 /* en */,
+			);
+			name = DemoViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB95CE4D14BEBED5000B6D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB95CE4E14BEBED5000B6D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB95CE5014BEBED5000B6D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GaussianBlur/GaussianBlur-Prefix.pch";
+				INFOPLIST_FILE = "GaussianBlur/GaussianBlur-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB95CE5114BEBED5000B6D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GaussianBlur/GaussianBlur-Prefix.pch";
+				INFOPLIST_FILE = "GaussianBlur/GaussianBlur-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB95CE2814BEBED5000B6D24 /* Build configuration list for PBXProject "GaussianBlur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB95CE4D14BEBED5000B6D24 /* Debug */,
+				EB95CE4E14BEBED5000B6D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB95CE4F14BEBED5000B6D24 /* Build configuration list for PBXNativeTarget "GaussianBlur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB95CE5014BEBED5000B6D24 /* Debug */,
+				EB95CE5114BEBED5000B6D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB95CE2514BEBED5000B6D24 /* Project object */;
+}
