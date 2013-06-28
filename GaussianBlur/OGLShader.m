@@ -1,12 +1,9 @@
 //
 //  OGLShader.m
-//  Nomic
 //
-//  Created by Jimmy Lu on 1/24/12,
-//  ported from code by Zikomo Fields
-//
-//  Copyright (c) 2012 Nomic. All rights reserved.
-//
+// Created by Zikomo Fields 
+// Modified by Jimmy Lu on 1/24/12, 
+
 
 #import "OGLShader.h"
 
